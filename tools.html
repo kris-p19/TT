@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10231e" />
+    <link rel="canonical" href="https://stackwise.fintechxhub.com/tools.html" />
+    <meta name="description" content="Browse practical AI tools and software for freelancers, creators, and small teams." />
+    <meta property="og:title" content="AI Tools Directory — Stackwise" />
+    <meta property="og:description" content="A focused directory of AI tools and software for independent work." />
+    <meta property="og:type" content="website" />
+    <meta name="author" content="Stackwise Editorial" />
+    <meta name="robots" content="index,follow" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI Tools Directory",
+        "description": "A focused directory of AI tools and software for independent work.",
+        "isPartOf": { "@type": "WebSite", "name": "Stackwise" },
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "ChatGPT" },
+            { "@type": "ListItem", "position": 2, "name": "Claude" },
+            { "@type": "ListItem", "position": 3, "name": "Notion" },
+            { "@type": "ListItem", "position": 4, "name": "ClickUp" },
+            { "@type": "ListItem", "position": 5, "name": "Zapier" },
+            { "@type": "ListItem", "position": 6, "name": "Make" },
+            { "@type": "ListItem", "position": 7, "name": "Canva" },
+            { "@type": "ListItem", "position": 8, "name": "Figma" },
+            { "@type": "ListItem", "position": 9, "name": "Descript" }
+          ]
+        }
+      }
+    </script>
+    <title>AI Tools Directory — Stackwise</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3203802670121740" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'Inter', 'system-ui', 'sans-serif'],
+            },
+            boxShadow: {
+              soft: '0 24px 80px rgba(16, 35, 30, 0.12)',
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen bg-[#f4f7f1] font-sans text-[#10231e] antialiased">
+    <header class="border-b border-[#10231e]/10 bg-[#f4f7f1]">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8" aria-label="Main navigation">
+        <a href="index.html" class="flex items-center gap-3" aria-label="Stackwise home">
+          <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#d6f36a] text-lg font-extrabold text-[#10231e]">S</span>
+          <span class="text-lg font-extrabold tracking-[-0.04em]">stackwise<span class="text-[#7b9b43]">.</span></span>
+        </a>
+        <div class="hidden items-center gap-8 text-sm font-semibold text-[#10231e]/65 md:flex">
+          <a class="text-[#10231e]" href="tools.html">Tools</a>
+          <a class="transition-colors hover:text-[#10231e]" href="reviews.html">Reviews</a>
+          <a class="transition-colors hover:text-[#10231e]" href="comparisons.html">Comparisons</a>
+          <a class="transition-colors hover:text-[#10231e]" href="guides.html">Guides</a>
+        </div>
+        <a class="rounded-full bg-[#10231e] px-5 py-3 text-sm font-bold text-white transition-transform hover:-translate-y-0.5" href="guides.html">Read the guides</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="mx-auto max-w-7xl px-6 pb-16 pt-16 lg:px-8 lg:pb-24 lg:pt-24">
+        <div class="max-w-3xl">
+          <p class="text-xs font-extrabold uppercase tracking-[0.2em] text-[#78983c]">The directory</p>
+          <h1 class="mt-5 text-5xl font-extrabold leading-[0.98] tracking-[-0.07em] sm:text-7xl">Find the tool that fits the job.</h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-[#10231e]/60">A focused shortlist of AI tools and software for independent work. Start with the bottleneck, then choose the simplest tool that solves it.</p>
+        </div>
+      </section>
+
+      <section id="tool-directory" class="border-y border-[#10231e]/10 bg-white/55">
+        <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-14">
+          <div class="grid gap-4 lg:grid-cols-[1fr_15rem_auto] lg:items-end">
+            <label class="block"><span class="sr-only">Search tools</span><input id="tool-search" type="search" placeholder="Search tools or jobs..." class="min-h-14 w-full rounded-2xl border border-[#10231e]/12 bg-white px-5 text-sm font-semibold outline-none transition-colors placeholder:text-[#10231e]/35 focus:border-[#78983c]" /></label>
+            <label class="block"><span class="sr-only">Filter by category</span><select id="category-filter" class="min-h-14 w-full rounded-2xl border border-[#10231e]/12 bg-white px-5 text-sm font-semibold outline-none transition-colors focus:border-[#78983c]"><option value="all">All categories</option><option value="AI thinking">AI thinking</option><option value="Workspace">Workspace</option><option value="Automation">Automation</option><option value="Design">Design</option><option value="Content">Content</option></select></label>
+            <p id="tool-count" class="pb-3 text-sm font-bold text-[#10231e]/50 lg:pb-0">9 tools found</p>
+          </div>
+          <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <article data-tool-card data-name="chatgpt" data-category="AI thinking" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#e8f3be] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">AI thinking</span><span class="text-xl text-[#78983c]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">ChatGPT</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A general-purpose starting point for drafting, brainstorming, and getting unstuck.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for first drafts</span><a class="text-sm font-extrabold" href="review-chatgpt.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="claude" data-category="AI thinking" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#e8f3be] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">AI thinking</span><span class="text-xl text-[#78983c]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Claude</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A thoughtful workspace for long-form thinking, editing, and collaborative projects.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for deep work</span><a class="text-sm font-extrabold" href="review-claude.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="notion" data-category="Workspace" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-[#e8f3be] p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#10231e]/10 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">Workspace</span><span class="text-xl text-[#66822f]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Notion</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A flexible home for notes, projects, and the thinking between them.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for clarity</span><a class="text-sm font-extrabold" href="review-notion.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="clickup" data-category="Workspace" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#e8f3be] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">Workspace</span><span class="text-xl text-[#78983c]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">ClickUp</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A project workspace for teams that want more structure around their next sprint.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for project flow</span><a class="text-sm font-extrabold" href="review-clickup.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="zapier" data-category="Automation" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-[#10231e] p-7 text-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-white/10 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#d6f36a]">Automation</span><span class="text-xl text-[#d6f36a]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Zapier</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-white/55">Connect the small tasks that quietly eat up your week.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-white/10 pt-5"><span class="text-xs font-bold text-white/40">Best for handoffs</span><a class="text-sm font-extrabold text-[#d6f36a]" href="review-zapier.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="make" data-category="Automation" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#e8f3be] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">Automation</span><span class="text-xl text-[#78983c]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Make</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A visual automation builder for workflows that need a little more branching.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for visual flows</span><a class="text-sm font-extrabold" href="review-make.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="canva" data-category="Design" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-[#f2e5f5] p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#8d559b]/10 px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#8d559b]">Design</span><span class="text-xl text-[#8d559b]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Canva</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A fast route from rough idea to polished visual, even without a design background.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for quick visuals</span><a class="text-sm font-extrabold" href="review-canva.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="figma" data-category="Design" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#e8f3be] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#66822f]">Design</span><span class="text-xl text-[#78983c]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Figma</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A collaborative space for product thinking, interface work, and shared systems.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for product design</span><a class="text-sm font-extrabold" href="review-figma.html">Read review</a></div>
+            </article>
+            <article data-tool-card data-name="descript" data-category="Content" class="group rounded-[1.5rem] border border-[#10231e]/10 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div class="flex items-start justify-between"><span class="rounded-full bg-[#dff2ec] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#387866]">Content</span><span class="text-xl text-[#387866]">↗</span></div>
+              <h2 class="mt-10 text-2xl font-extrabold tracking-[-0.05em]">Descript</h2>
+              <p class="mt-3 min-h-12 text-sm leading-6 text-[#10231e]/55">A practical editor for turning recorded conversations into polished written work.</p>
+              <div class="mt-7 flex items-center justify-between border-t border-[#10231e]/10 pt-5"><span class="text-xs font-bold text-[#10231e]/45">Best for spoken content</span><a class="text-sm font-extrabold" href="review-descript.html">Read review</a></div>
+            </article>
+          </div>
+          <p id="empty-state" class="hidden py-16 text-center text-lg font-bold text-[#10231e]/55">No tools match that search yet.</p>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
+        <div class="grid gap-8 rounded-[2rem] bg-[#10231e] p-8 text-white sm:p-12 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-16">
+          <div><p class="text-xs font-extrabold uppercase tracking-[0.2em] text-[#d6f36a]">Not sure where to begin?</p><h2 class="mt-3 text-3xl font-extrabold tracking-[-0.06em]">Start with the job, not the tool.</h2><p class="mt-4 max-w-xl text-sm leading-6 text-white/55">Our method helps you avoid paying for features you will never use.</p></div>
+          <a class="inline-flex items-center justify-center rounded-full bg-[#d6f36a] px-6 py-4 text-sm font-extrabold text-[#10231e] transition-transform hover:-translate-y-1" href="index.html#method">See our method <span class="ml-3" aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-[#10231e]/10 bg-[#10231e] text-white">
+      <div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-10 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+        <a href="index.html" class="flex items-center gap-3" aria-label="Stackwise home"><span class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#d6f36a] text-lg font-extrabold text-[#10231e]">S</span><span class="text-lg font-extrabold tracking-[-0.04em]">stackwise<span class="text-[#d6f36a]">.</span></span></a>
+        <div class="flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/55"><a class="hover:text-white" href="reviews.html">Reviews</a><a class="hover:text-white" href="comparisons.html">Comparisons</a><a class="hover:text-white" href="guides.html">Guides</a><a class="hover:text-white" href="about.html">About</a><a class="hover:text-white" href="privacy.html">Privacy</a></div>
+        <p class="text-xs text-white/35">© 2026 Stackwise.</p>
+      </div>
+    </footer>
+
+    <script>
+      const search = document.querySelector('#tool-search');
+      const category = document.querySelector('#category-filter');
+      const count = document.querySelector('#tool-count');
+      const emptyState = document.querySelector('#empty-state');
+      const cards = [...document.querySelectorAll('[data-tool-card]')];
+
+      const updateTools = () => {
+        const query = search.value.trim().toLowerCase();
+        const selectedCategory = category.value;
+        let visible = 0;
+
+        cards.forEach((card) => {
+          const matchesQuery = !query || card.dataset.name.includes(query) || card.textContent.toLowerCase().includes(query);
+          const matchesCategory = selectedCategory === 'all' || card.dataset.category === selectedCategory;
+          const matches = matchesQuery && matchesCategory;
+          card.classList.toggle('hidden', !matches);
+          if (matches) visible += 1;
+        });
+
+        count.textContent = `${visible} ${visible === 1 ? 'tool' : 'tools'} found`;
+        emptyState.classList.toggle('hidden', visible !== 0);
+      };
+
+      search.addEventListener('input', updateTools);
+      category.addEventListener('change', updateTools);
+    </script>
+  </body>
+</html>
